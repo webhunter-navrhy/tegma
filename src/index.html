@@ -1,0 +1,92 @@
+{% extends "_base.html" %}
+{% set titulek = 'TEGMA – stavební společnost: rodinné domy, rekonstrukce, projekce' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitek">Mladá stavební společnost s odborníky v oboru</p>
+      <h1>Postavíme vám vaše vysněné bydlení se vším všudy, nebo pouze pomůžeme tam, kde si sami netroufnete.</h1>
+      <p class="hero-pod">Služby v oblasti stavebnictví nabízíme především v Jihomoravském kraji, ale neztratíme se ani kdekoliv na území České republiky.</p>
+      <div class="hero-akce">
+        <a class="tlacitko" href="#kontakt">Poptat stavbu</a>
+        <a class="hero-kontakt" href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a>
+        <a class="hero-kontakt" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a>
+      </div>
+    </div>
+    </div>
+  <div class="wrap hero-pas">
+    <figure>{{ img('f02.jpg', 'Základová deska rodinného domu před zahájením zdění', sizes='(min-width: 64rem) 33vw, 92vw', eager=True) }}<figcaption>Základová deska</figcaption></figure>
+    <figure>{{ img('f06.jpg', 'Zdivo stavby s připravenými otvory', sizes='(min-width: 64rem) 33vw, 92vw') }}<figcaption>Hrubá stavba</figcaption></figure>
+    <figure>{{ img('f08.jpg', 'Krov na dokončeném zdivu rodinného domu', sizes='(min-width: 64rem) 33vw, 92vw') }}<figcaption>Krov na dokončeném zdivu</figcaption></figure>
+  </div>
+</section>
+
+<section class="sekce" id="sluzby">
+  <div class="wrap dvoj">
+    <h2>Co stavíme</h2>
+    <ul role="list" class="radky">
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce tmava" id="stavba">
+  <div class="wrap">
+    <h2>Stavba krok za krokem</h2>
+    <p class="uvod">Fotografie z našich staveb v pořadí, v jakém dům vzniká.</p>
+    <div class="denik">
+      <ol class="rejstrik" role="list" aria-label="Fáze stavby">
+        {% for f in data.faze %}<li><a href="#faze-{{ f.id }}" data-faze="{{ f.id }}"><span class="cis">{{ loop.index }}</span>{{ f.nazev }}</a></li>{% endfor %}
+      </ol>
+      <div class="faze-seznam">
+        {% for f in data.faze %}
+        <article class="faze" id="faze-{{ f.id }}" data-faze="{{ f.id }}">
+          <h3><span class="cis">{{ loop.index }}</span> {{ f.nazev }}</h3>
+          <p>{{ f.text }}</p>
+          <div class="fotky n{{ f.fotky|length }}">
+            {% for p in f.fotky %}{{ img(p[0], p[1], sizes='(min-width: 64rem) 34vw, 92vw') }}{% endfor %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="spoluprace">
+  <div class="wrap dvoj">
+    <h2>Ke každému zákazníkovi se stavíme individuálně</h2>
+    <ol role="list" class="kroky">
+      <li><h3>Konzultujeme projekt</h3><p>Projdeme s vámi přání a požadavky a promítneme je do výkresů projektové dokumentace.</p></li>
+      <li><h3>Cenu stanovíme předem</h3><p>Víte, na čem jste, ještě než se začne stavět.</p></li>
+      <li><h3>Postaráme se o úřady</h3><p>Zastoupíme vás na úřadech a předáme kompletní dokumentaci včetně všech povolení.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sekce vedlejsi" id="vedlejsi">
+  <div class="wrap">
+    <h2>Vedlejší činnosti naší TEGMY</h2>
+    <ul role="list" class="tri">
+      <li><h3>Expresní doručení malých zásilek</h3><p>Do dvou hodin od potvrzení objednávky vyzvedneme u zákazníka a neprodleně doručíme po celé ČR a SR.</p></li>
+      <li><h3>Silniční motorová doprava</h3><p>Nákladní, provozovaná vozidly nebo jízdními soupravami o největší povolené hmotnosti nepřesahující 3,5 tuny.</p></li>
+      <li><h3>Opravy a údržba osobních vozidel</h3><p>Zajišťujeme drobné opravy a údržbu vozidel, včetně zajištění STK.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap dvoj">
+    <div>
+      <h2>Zeptejte se nás, nebo rovnou zavolejte</h2>
+      <address>
+        <a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a>
+        <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a>
+        <span>{{ site.kontakt.adresa.ulice }}, {{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }}</span>
+      </address>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

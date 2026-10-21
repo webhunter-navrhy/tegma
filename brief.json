@@ -1,0 +1,433 @@
+{
+ "slug": "tegma",
+ "zdroj_url": "https://www.tegma.cz",
+ "firma": "TEGMA s.r.o.",
+ "obor": [
+  "stavebnictví a řemesla",
+  "právo a poradenství"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "info@tegma.cz"
+  ],
+  "telefony": [
+   "+420 773 626 411"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/tegmasro"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://tegma.cz/wp-content/uploads/2020/09/logo_high_resolution-480x69.png",
+  "rozmery": [
+   480,
+   69
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#2ea3f2",
+   "#ff6900",
+   "#29c4a9",
+   "#9b51e0",
+   "#003388",
+   "#cf2e2e"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#2ea3f2",
+   "#ff6900"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/construction-1921518_1280.jpg",
+   "sirka": 912,
+   "vyska": 608,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20150825_18_05_49_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20150825_18_06_17_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20150820_10_19_18_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20150831_08_44_16_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-06.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20150909_14_01_26_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-07.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20150928_16_27_30_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-08.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20150930_18_34_27_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-09.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20150930_18_33_17_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-10.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151025_16_36_48_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-11.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20160114_19_48_38_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-12.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20160111_16_26_45_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-13.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20160111_11_38_27_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-14.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/119664464_244155890256707_5437486346905261473_n-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-15.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/119584925_321461319082047_234114965292892477_n-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-16.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20160401_17_06_15_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-17.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/IMG_0497-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-18.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/IMG_0466-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-19.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/IMG_0492-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-20.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/IMG_0498-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-21.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/IMG_0493-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-22.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/IMG_0490-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-23.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/56344458758__4645B114-6224-4EC9-BEC0-13CFD07FD40E-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-24.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/119734887_244535600254859_2628062263194265711_n-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-25.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/119718582_318706719418727_5255860520385981743_n-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-26.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/119510796_363839628140461_7692939419842852840_n-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-27.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/119460311_366387151404357_6523202085152814664_n-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-28.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/119784407_1494763307359246_664143083134617073_n-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-29.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20160107_20_12_08_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-30.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151230_14_47_44_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-31.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151230_14_47_13_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-32.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151230_14_46_32_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-33.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151230_14_46_17_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-34.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151212_17_52_06_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-35.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151212_17_51_43_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-36.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151209_17_46_40_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-37.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151209_17_45_56_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-38.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/WP_20151209_17_45_44_Pro-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-39.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/4556-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-40.jpg",
+   "url": "https://tegma.cz/wp-content/uploads/2020/09/4562-400x284.jpg",
+   "sirka": 400,
+   "vyska": 284,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h3",
+   "text": "MLADÁ STAVEBNÍ SPOLEČNOST S ODBORNÍKY V OBORU.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "h1",
+   "text": "Postavíme vám vaše vysněné bydlení se vším všudy, nebo pouze pomůžeme tam, kde si sami netroufnete.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Hrubá výstavba",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Suchá výstavba SDK",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "izolace proti vodě a zemní vlhkosti",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "TEGMA s.r.o.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "h1",
+   "text": "Zeptejte se nás, nebo rovnou zavolejte",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nabízíme služby v oblasti stavebnictví především v Jihomoravském kraji, ale neztratíme se ani kdekoliv na území České Republiky.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Zajišťujeme kompletní výstavbu domů od základů až po vybavení interiéru. Nepotřebujete zajistit výstavbu tzv „na klíč“? Nevadí, pomůžeme vám v oblastech, kde si nejste jistí.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Rekonstrukce pro nás není žádný problém. Rozhodli jste se pro novou koupelnu, nebo dětský pokoj? Chcete zajistit rodičům důstojné bydlení? Obraťte se na nás, zajistíme vše od projekce až po kolaudaci, nebo pouze to, na co si netroufáte sami.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Rekonstrukce kanceláře, projekce a výstavba nové provozovny? Se vším vám poradíme a dokážeme zrealizovat od projektu až ke kolaudaci.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Neznáme slovo „nejde“. Děláme maximum pro to, abychom dobře  promítli přání a požadavky zákazníků na výkresy projektové dokumentace. Zastoupíme zákazníka na úřadech a předáme kompletní dokumentaci včetně všech povolení.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Expresní doručení malých zásilek – Do dvou hodin od potvrzení objednávky vyzvedneme u zákazníka a neprodleně doručíme po celé ČR a SR.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Silniční motorová doprava – nákladní provozovaná vozidly nebo jízdními soupravami o největší povolené hmotnosti nepřesahující 3,5 tuny.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Opravy a údržba osobních vozidel – Zajišťujeme drobné opravy a údržbu vozidel, včetně zajištění STK.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ke každému zákazníkovi se stavíme individuálně, konzultujeme projekt a předem stanovíme ceny.",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "info@tegma.cz Školská 689/20, 110 00, Praha 1 – Nové Město +420 773 626 411",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pokračováním užívání této stránky souhlasíte s použitím cookies. více informací Souhlasím",
+   "zdroj": "https://www.tegma.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nastavení cookie na tomto webu je nastaveno pro  \"povoleno cookies\", aby vám poskytlo nejlepší možné prohlížení stránek. Pokud budete nadále používat tento web bez změny nastavení cookie nebo klepnete na tlačítko \"Souhlasím\"  souhlasíte s podmínkami použití cookie.",
+   "zdroj": "https://www.tegma.cz/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": ""
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "tegma",
+  "nazev": "TEGMA s.r.o.",
+  "url": "https://webhunter-navrhy.github.io/tegma/",
+  "base": "/tegma/",
+  "lang": "cs",
+  "popis": "TEGMA s.r.o. – stavební společnost: výstavba rodinných domů, rekonstrukce, komerční prostory a projekce. Jihomoravský kraj i celá ČR.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "f08.jpg",
+  "logo": "logo.png",
+  "theme_color": "#f3f0ea",
+  "typ": "GeneralContractor",
+  "ico": "",
+  "kontakt": {
+    "email": "info@tegma.cz",
+    "telefon": "+420 773 626 411",
+    "adresa": {
+      "ulice": "Školská 689/20",
+      "psc": "110 00",
+      "mesto": "Praha 1 – Nové Město",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Poptávka z webu"
+  },
+  "nav": [
+    {
+      "text": "Co stavíme",
+      "href": "#sluzby"
+    },
+    {
+      "text": "Stavba krok za krokem",
+      "href": "#stavba"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

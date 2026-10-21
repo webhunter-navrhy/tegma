@@ -1,0 +1,92 @@
+[
+ {
+  "id": "zaklady",
+  "nazev": "Základy a přípojky",
+  "text": "Základová deska, kanalizace a přípojky. Od správného začátku se odvíjí všechno ostatní.",
+  "fotky": [
+   [
+    "f02.jpg",
+    "Základová deska rodinného domu před zahájením zdění"
+   ],
+   [
+    "f04.jpg",
+    "Uložená kanalizace a přípojky před zasypáním"
+   ]
+  ]
+ },
+ {
+  "id": "zdeni",
+  "nazev": "Hrubá výstavba",
+  "text": "Zdivo, překlady a stropy. Hrubá stavba je naše první z hlavních činností.",
+  "fotky": [
+   [
+    "f05.jpg",
+    "Zdivo stavby s připravenými tvárnicemi"
+   ],
+   [
+    "f07.jpg",
+    "Dokončené zdivo rodinného domu"
+   ]
+  ]
+ },
+ {
+  "id": "strecha",
+  "nazev": "Krov a střecha",
+  "text": "Dřevěný krov, stropní trámy a zastřešení včetně přístřešků.",
+  "fotky": [
+   [
+    "f09.jpg",
+    "Detail krovu rodinného domu"
+   ],
+   [
+    "f10.jpg",
+    "Dřevěný přístřešek u domu"
+   ]
+  ]
+ },
+ {
+  "id": "dreveno",
+  "nazev": "Dřevostavby a izolace",
+  "text": "Obvodové stěny, minerální izolace a opláštění. Izolace proti vodě a zemní vlhkosti.",
+  "fotky": [
+   [
+    "f18.jpg",
+    "Dřevěná konstrukce přístavby před zateplením"
+   ],
+   [
+    "f21.jpg",
+    "Stěna s tepelnou izolací a opláštěním"
+   ]
+  ]
+ },
+ {
+  "id": "sdk",
+  "nazev": "Suchá výstavba SDK",
+  "text": "Podhledy, příčky a nika ze sádrokartonu, připravené na malování.",
+  "fotky": [
+   [
+    "f29.jpg",
+    "Sádrokartonové stropy a niky"
+   ],
+   [
+    "f33.jpg",
+    "Sádrokartonový podhled před finálním tmelením"
+   ]
+  ]
+ },
+ {
+  "id": "podlahy",
+  "nazev": "Interiér a podlahy",
+  "text": "Dlažba, podlahy a vybavení interiéru až k předání.",
+  "fotky": [
+   [
+    "f12.jpg",
+    "Obložená místnost s připravenou dlažbou"
+   ],
+   [
+    "f13.jpg",
+    "Dlažba podlahy pokládaná ve velkém formátu"
+   ]
+  ]
+ }
+]
