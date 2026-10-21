@@ -207,3 +207,6 @@ p { font-size: 1.0625rem; color: #3a3a3a; }
 .hero-pod { color: #3a3a3a; }
 .radky h3 { font-size: 1.5rem; }
 .radky p, .kroky p, .tri p { font-size: 1.0625rem; color: #3a3a3a; }
+.hlavicka .logo { display: flex; align-items: center; min-height: 44px; }
+.kontakt address a, .hero-kontakt { display: inline-flex; align-items: center; min-height: 44px; }
+.kontakt address a { font-size: 1.4rem; }

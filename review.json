@@ -1,17 +1,17 @@
 {
-  "znamka": 7,
+  "znamka": 8,
   "slabiny": [
-    "Výtka 1 je opravená jen zčásti. V sekci „Co stavíme“ na PC (buňka 3) je pořád rozvržení do tří sloupců. Popisy služeb zůstaly v úzkém třetím sloupci, jsou drobné (kolem 13–14 px) a světle šedé. Oprava: popis dát pod název služby přes celou šířku pravého sloupce, v normálním Barlow (ne Condensed) 17 px a v barvě #3a3a3a.",
-    "Na PC jsou drobné a šedé i popisy ve „Ke každému zákazníkovi se stavíme individuálně“ (buňka 8, body 1–3) a ve „Vedlejších činnostech naší TEGMY“ (buňky 8–9). Rozvržení do 2 sloupců u Vedlejších činností je v pořádku, písmo ale ne. QA navíc pořád hlásí font_text = Barlow Condensed. Oprava: základní styl odstavců (body / p) přepnout globálně na Barlow 400, 17 px, #3a3a3a, ne jen v media query pro mobil.",
-    "Úvod na PC (buňka 2) je teď dobře zhuštěný: nadpis má 3 řádky a celý pás fotek se vejde do prvního zobrazení. Fotky jsou ale pořád v opačném pořadí (Krov → Hrubá stavba → Základová deska), na PC i na mobilu. Oprava: seřadit je Základová deska → Hrubá stavba → Krov, stejně jako fáze v galerii „Stavba krok za krokem“."
+    "Popisy na PC v sekcích „Co stavíme“ (buňka 3), „Ke každému zákazníkovi…“ (buňka 8) a „Vedlejší činnosti“ (buňky 8–9) jsou stále drobné a světle šedé. QA navíc pořád hlásí font_text = Barlow Condensed, takže globální styl textu se nezměnil. Oprava: nastavit přímo `body` (ne jen `p` nebo media query) na Barlow 400, 17 px, line-height 1,6 a barvu #3a3a3a. Popisy bodů 1–3 u „Ke každému zákazníkovi…“ zvětšit na stejných 17 px. Pak ověřit, že qa.json hlásí font_text = Barlow.",
+    "Na mobilu jsou odkazy s telefonem a e-mailem v úvodu (buňka 1) a v kontaktu (buňka 9) vysoké jen 31 px. QA hlásí 3 malé dotykové cíle, mezi nimi i logo vysoké 28 px. Oprava: odkazům dát `display:inline-flex; min-height:44px; align-items:center` a logu svislý padding, aby měl odkaz aspoň 44 px.",
+    "Kontakt na PC (buňka 9): nadpis „Zeptejte se nás, nebo rovnou zavolejte“ se v úzkém levém sloupci láme na 3 krátké řádky a formulář zabírá jen prostřední třetinu, pravá třetina zůstává prázdná. Oprava: dát mřížku 5/7 přes celou šířku kontejneru, levý sloupec rozšířit aspoň na 420 px a formulář roztáhnout do zbytku. Telefon a e-mail zvětšit na 22–24 px jako hlavní kontakt."
   ],
   "zavazne": [],
   "silne": [
-    "Galerie „Stavba krok za krokem“ je opravená: každá fáze má 2 fotky, Interiér a podlahy dostal druhou fotku a pod ní nezůstává prázdná tmavá plocha.",
-    "Koncept stavby po fázích s postranním rozcestníkem (1–6) vychází z reálných fotek ze staveb TEGMY a na mobilu funguje jako vodorovný pás fotek.",
-    "Brand drží: logo TEGMA je vlevo v hlavičce, akcent je oranžová #ff6900 z původního webu. Nic není vymyšlené, texty i adresa jsou z briefu.",
-    "Mobil je čitelný a bez přetékání, tlačítko Poptat stavbu je vždy vidět a formulář s kontakty je jasný."
+    "Pořadí fotek v úvodu je opravené na PC i na mobilu (Základová deska → Hrubá stavba → Krov) a sedí na fáze v galerii „Stavba krok za krokem“.",
+    "„Co stavíme“ už nemá tři sloupce: nadpis je vlevo a vpravo jsou služby, popis vždy pod názvem přes celou šířku sloupce. Na mobilu se popisy čtou dobře.",
+    "Koncept „Stavba krok za krokem“ s lepivou navigací fází 1–6 a skutečnými fotkami ze staveb TEGMY dává smysl pro stavební firmu. Logo vlevo a oranžová #ff6900 drží brand klienta.",
+    "Texty vycházejí jen z briefu, nic vymyšleného. Na žádné šířce nic nepřetéká, CTA „Poptat stavbu“ je pořád vidět v hlavičce."
   ],
-  "verdikt": "Opravené jsou výtky 3 a většina výtky 2. Typografie běžného textu na PC (výtka 1) ale zůstala skoro beze změny a fotky v úvodu mají pořád opačné pořadí. Po sjednocení textu na Barlow 17 px tmavší barvou a otočení pořadí fotek je návrh na 8.",
-  "_hash": "7cc649f07045801f60cf6caf267a6ccbee6ac467"
+  "verdikt": "Pořadí fotek a rozvržení „Co stavíme“ jsou opravené. Globální písmo textu podle QA zůstává Barlow Condensed, ale to je drobnost bez závažné vady, takže web je na hranici odeslání. Před odesláním doporučuji dotáhnout styl `body` a velikost dotykových cílů.",
+  "_hash": "75e33bec3f78a74d344d622f8361bf25e3bcd541"
 }
